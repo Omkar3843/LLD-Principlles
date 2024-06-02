@@ -1,4 +1,4 @@
-package SRP;
+package SRP.Example2.ProblematicCode;
 
 public class Employee {
 
