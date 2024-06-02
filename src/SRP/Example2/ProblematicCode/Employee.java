@@ -9,7 +9,7 @@ public class Employee {
     }
 
     public String fetchBioData() {
-        return "Some bio data";
+
     }
 
     public double calculateSalary() {
@@ -17,7 +17,7 @@ public class Employee {
     }
 
     public void printPerformanceData() {
-        System.out.println("Some performance related data");
+
     }
 
 
