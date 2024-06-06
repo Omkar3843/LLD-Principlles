@@ -9,10 +9,10 @@ public class NotificationSender {
             if(type == NotificationType.SMS){
                 NotificationType.sendSMSNotification();
             }
-            if(type == NotificationType.EMAIL){
+            else if(type == NotificationType.EMAIL){
                 NotificationType.sendEMAILNotification();
             }
-            if(type == NotificationType.WHATSAPP){
+            else if(type == NotificationType.WHATSAPP){
                 NotificationType.sendWHATSAPPNotification();
             }
         }
